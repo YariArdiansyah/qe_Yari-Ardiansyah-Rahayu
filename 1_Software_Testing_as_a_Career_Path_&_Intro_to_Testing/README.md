@@ -48,7 +48,7 @@ Software tester career path
 >Quality Engineer Manager (8-11 Tahun pengalaman)
 
 ### Poin Ketiga
-Career Alternatif seorang software tester
+Career Alternatif seorang software tester.
 >Performance Tester
 >Penetration Tester
 >System Analyst
