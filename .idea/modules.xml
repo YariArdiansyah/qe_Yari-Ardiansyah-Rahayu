@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/BasicProgramming/BasicProgramming.iml" filepath="$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/BasicProgramming/BasicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/Soal OOP/src/Soal OOP.iml" filepath="$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/Soal OOP/src/Soal OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/Soal OOP/Soal OOP1.iml" filepath="$PROJECT_DIR$/6_Basic_Programming_&amp;_OOP/Praktikum/Soal OOP/Soal OOP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qe_Yari-Ardiansyah-Rahayu.iml" filepath="$PROJECT_DIR$/.idea/qe_Yari-Ardiansyah-Rahayu.iml" />
+    </modules>
+  </component>
+</project>
