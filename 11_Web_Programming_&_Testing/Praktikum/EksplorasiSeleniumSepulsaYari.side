@@ -1,0 +1,215 @@
+{
+  "id": "e1ec7d9c-607b-469f-9110-1560dc6a0f03",
+  "version": "2.0",
+  "name": "SepulsaYari",
+  "url": "https://www.sepulsa.com",
+  "tests": [{
+    "id": "c83171e1-4e72-4f6a-ae27-36a7d13c14c7",
+    "name": "Untitled",
+    "commands": [{
+      "id": "da9c12ad-18bb-4c7e-a52a-275e1defa17c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca12d5cd-63b1-4f98-b339-e963fd23d532",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bf13d0c-0db0-44ff-89f9-73a32d8bd997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-label",
+      "targets": [
+        ["css=.MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='button_signin_home']/span", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b129c5f-9a73-4961-a4a0-3a0c5255a9d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[2]/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/span/div[2]/input", "xpath:position"]
+      ],
+      "value": "bravosix"
+    }, {
+      "id": "58a4df51-4fba-4fbe-8150-1538358a57f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd589660-1118-4b2c-a9e2-ca92f7338dcf",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div/div/label/span/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "081914062710"
+    }, {
+      "id": "e11fddbb-e853-4ccc-a505-348d33ff930d",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_login",
+      "targets": [
+        ["id=submit_login", "id"],
+        ["css=#submit_login", "css:finder"],
+        ["xpath=//button[@id='submit_login']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fa43807-3165-4f96-8e53-3ad2a7ed2384",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Pulsa path:nth-child(3)",
+      "targets": [
+        ["css=#Pulsa path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "896db66d-360b-4cae-99b6-07a824c45c54",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a793495-d3bf-49f8-8387-5e21a06f118e",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_number",
+      "targets": [
+        ["id=phone_number", "id"],
+        ["name=phone_number", "name"],
+        ["css=#phone_number", "css:finder"],
+        ["xpath=//input[@id='phone_number']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "089501775166"
+    }, {
+      "id": "65006771-f5f7-4d12-b989-7a89a9bb28cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Tri\\ Rp8\\.000 > .nominal-item__price",
+      "targets": [
+        ["css=#Tri\\ Rp8\\.000 > .nominal-item__price", "css:finder"],
+        ["xpath=//div[@id='Tri Rp8.000']/p[3]", "xpath:idRelative"],
+        ["xpath=//div[5]/p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Rp10.000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5c17ccf-a8c5-40c0-a9ec-63ad3be070b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkbox DANA",
+      "targets": [
+        ["id=checkbox DANA", "id"],
+        ["name=DANA", "name"],
+        ["css=#checkbox\\ DANA", "css:finder"],
+        ["xpath=//input[@id='checkbox DANA']", "xpath:attributes"],
+        ["xpath=//label[@id='label DANA']/span/span/input", "xpath:idRelative"],
+        ["xpath=//div/li[2]/label/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90ec5490-3f1f-422b-842d-86ac22166700",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit_payment",
+      "targets": [
+        ["id=submit_payment", "id"],
+        ["css=#submit_payment", "css:finder"],
+        ["xpath=//button[@id='submit_payment']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0733c3-0a00-40d1-a5e6-646f11de1d8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit_payment",
+      "targets": [
+        ["id=submit_payment", "id"],
+        ["css=#submit_payment", "css:finder"],
+        ["xpath=//button[@id='submit_payment']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24177ce-e46c-4ba3-a056-621723b2e375",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit_payment",
+      "targets": [
+        ["id=submit_payment", "id"],
+        ["css=#submit_payment", "css:finder"],
+        ["xpath=//button[@id='submit_payment']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bayar Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc884ac-f18e-4d6d-9915-b312f7d82bb6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,328.1833190917969)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1c53cee6-90be-419d-ab38-f316ec8fd34b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c83171e1-4e72-4f6a-ae27-36a7d13c14c7"]
+  }],
+  "urls": ["https://www.sepulsa.com/"],
+  "plugins": []
+}
