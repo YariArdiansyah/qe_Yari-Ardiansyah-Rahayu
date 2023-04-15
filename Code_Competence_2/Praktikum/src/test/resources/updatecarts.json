@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "products": {
+      "type": "object",
+      "properties": {
+        "productId": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "productId",
+        "quantity"
+      ]
+    }
+  }
+}
